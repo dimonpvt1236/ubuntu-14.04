@@ -1,12 +1,12 @@
 apache-php
 ===================================
 
-A Docker image based on Ubuntu 14.04, serving the old PHP 5.5.9 running as Apache Module. Useful for Web developers in need for an old PHP version. In addition, the `error_reporting` setting in php.ini is configurable per container via environment variable.
+A Docker image based on Ubuntu 14.04, serving the old PHP 5.5 running as Apache Module. Useful for Web developers in need for an old PHP version. In addition, the `error_reporting` setting in php.ini is configurable per container via environment variable.
 
 Tags
 -----
 
-* latest: Ubuntu 14.04 (LTS), Apache 2.4.7, PHP 5.5.9 with support for setting `error_reporting`
+* latest: Ubuntu 14.04 (LTS), Apache 2.2, PHP 5.5.30 with support for setting `error_reporting`
 
 Usage
 ------
