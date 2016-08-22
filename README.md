@@ -12,7 +12,7 @@ Usage
 ------
 
 ```
-$ docker run -d -P dimonpvt1236/ubuntu-14.04
+$ docker run -d -P dimonpvt/ubuntu-14.04
 ```
 
 With all the options:
@@ -21,7 +21,7 @@ With all the options:
 $ docker run -d -p 8080:80 \
     -v /home/user/webroot:/var/www \
     -e PHP_ERROR_REPORTING='E_ALL & ~E_STRICT' \
-    dimonpvt1236/ubuntu-14.04
+    dimonpvt/ubuntu-14.04
 ```
 
 * `-v [local path]:/var/www` maps the container's webroot to a local path
